@@ -7,14 +7,19 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
 
     <style>
-      
-      body {background-color: rgb(0, 43, 54)}
+    body {
+      min-height: 100vh;
+      max-width: 800px;
+      background-color:rgb(0, 43, 54);
+      margin: left;}
       footer {background-color: rgb(7, 54, 66)}
       header {background-color: rgb(7, 54, 66)}
       
       .container {border: 3px solid rgb(42,161,152);border-radius: px;}
-  
-      .header {text-align: center;font-size: 150%;}
+      .header {text-align: center;font-size: 150%;color:rgb(181,137,  0);}
+      
+      
+     
       nav ol {  
         display: flex;
         flex-direction: row;
@@ -23,10 +28,18 @@
         align-content: center;
         list-style-type:none;}
   
-  aside ul li {color: rgb(220, 50, 47);}
+  aside 
+  {float: right;
+  color:rgb(133,153,0) ;}
+    ul 
+    
+  li {color: rgb(220, 50, 47);}
   ul a {color: rgb(220, 50, 47);}
-
-      :root {
+  
+  article
+  {color:rgb(131,148,150)}
+  
+    :root {
         --base-font-color: rgb(131,148,150);
         --secondary-font-color: rgb(88,110,117);
         --emphasised-font: rgb(147,161,161);
@@ -53,9 +66,10 @@
     <header>
         
     </body>
-    <div class="header">
+    <div 
+    class="header">
       
-     <h1 style="color:rgb(181,137,  0);">Header</h1>
+     <h1>Header</h1>
   </header>
 
     <nav>
@@ -76,19 +90,21 @@
 
     <!-- Here is our page's main content -->
     <main>
+      
 
       <!-- It contains an article -->
       <article>
-        <h2 style="color:rgb(131,148,150)">Article header</h2>
+        
+        <h2>Article header</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 <div class="container">
-        <h3 style="color:rgb(131,148,150)">Subsection</h3> 
+        <h3>Subsection</h3> 
         <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.
 
         Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p></div>
 <div class="container">
-        <h3 style="color:rgb(131,148,150)">Another subsection</h3>
+        <h3>Another subsection</h3>
 
         <p> Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
 
@@ -97,7 +113,7 @@
 
       <!-- the aside content can also be nested within the main content -->
       <aside>
-        <h2 style="color: rgb(133,153,0)">Related</h2>
+        <h2>Related</h2>
 
         <ul>
           <li><a href="#">Oh I do like to be beside the seaside</a></li>
